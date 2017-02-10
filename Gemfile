@@ -34,7 +34,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-group :production
+group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end
